@@ -34,7 +34,7 @@ const Checkout = () => {
       }
 
       try {
-        const response = await axios.post("http://localhost:5000/api/payment/create-payment-intent", {
+        const response = await axios.post("https://render.com/docs/web-services#port-binding/api/payment/create-payment-intent", {
           amount: totalPrice * 100,
           customerName,
           customerEmail,
@@ -142,3 +142,27 @@ const Checkout = () => {
 };
 
 export default Checkout;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
